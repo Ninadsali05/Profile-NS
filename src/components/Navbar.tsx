@@ -22,7 +22,7 @@ export const Navbar = ({ activeTab, setActiveTab }: NavbarProps) => {
         >
           <div className="w-10 h-10 rounded-full border-2 border-siemens-petrol overflow-hidden bg-siemens-stone">
             <img 
-              src="/Profile-NS/icon.png"
+              src="/Profile-NS/icon.png" //Add the icon here
               alt="User Icon" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
