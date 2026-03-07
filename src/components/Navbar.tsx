@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import icon from './icon.png';
 
 import { Tab } from '../types';
 
@@ -23,7 +22,7 @@ export const Navbar = ({ activeTab, setActiveTab }: NavbarProps) => {
         >
           <div className="w-10 h-10 rounded-full border-2 border-siemens-petrol overflow-hidden bg-siemens-stone">
             <img 
-              src={icon} 
+              src="/Profile-NS/icon.png"
               alt="User Icon" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
