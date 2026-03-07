@@ -14,7 +14,7 @@ export const projects = {
       title: "CAD Support & Series Activities.",
       description: "Supported CAD modelling & drawings for ECU plastic parts. Also worked on PCBA technology,",
       tags: ["CREO", "ECU"],
-      image: "/Profile-NS/CAD.png"
+      image: "/Profile-NS/CAD.jpg"
     }
   ],
   plm: [
@@ -42,7 +42,7 @@ export const projects = {
       title: "Confluence Knowledge Hub",
       description: "Established a centralized Confluence wiki to consolidate technical know-how and project documentation, significantly enhancing cross-team collaboration and information accessibility.",
       tags: ["Confluence", "Knowledge Management", "Collaboration"],
-      image: "/Profile-NS/Wiki.png"
+      image: "/Profile-NS/wiki.png"
     }
   ]
 };
