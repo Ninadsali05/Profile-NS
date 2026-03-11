@@ -79,6 +79,13 @@ body {
   --card-border: rgba(255, 255, 255, 0.08);
   --card-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
 }
+:root {
+  --text-on-dark: #f5f5f5;
+}
+
+[data-theme="dark"] {
+  --text-on-dark: #e5e7eb;
+}
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
