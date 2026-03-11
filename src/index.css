@@ -86,6 +86,13 @@ body {
 [data-theme="dark"] {
   --text-on-dark: #e5e7eb;
 }
+:root {
+  --accent-strong: #009999;
+}
+
+[data-theme='dark'] {
+  --accent-strong: #00cfcf;
+}
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
