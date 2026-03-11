@@ -100,16 +100,13 @@ export const HomeView = () => {
                   </p>
                 </div>
 
-                {/* Key Achievement */}
+                {/* Key Achievement (FIXED) */}
                 <motion.div
                   initial={{ opacity: 0, x: -10 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  className="mt-4 p-6 rounded-sm border-l-4 border-siemens-petrol shadow-lg relative overflow-hidden transition-colors duration-300"
-                  style={{
-                    backgroundColor: 'var(--card-bg)',
-                    color: 'var(--text-secondary)',
-                  }}
+                  className="mt-4 p-6 bg-siemens-dark rounded-sm border-l-4 border-siemens-petrol shadow-lg relative overflow-hidden transition-colors duration-300"
+                  style={{ color: 'var(--text-secondary)' }}
                 >
                   <div className="absolute -top-2 -right-2 p-4 opacity-10">
                     <Award className="w-16 h-16" />
@@ -140,6 +137,7 @@ export const HomeView = () => {
                 viewport={{ once: true }}
                 className="relative pl-12"
               >
+                {/* Timeline Dot */}
                 <div
                   className="absolute -left-[9px] top-0 w-4 h-4 rounded-full border-4 flex items-center justify-center"
                   style={{
