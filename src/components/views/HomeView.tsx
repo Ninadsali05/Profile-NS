@@ -92,8 +92,11 @@ export const HomeView = () => {
                   initial={{ opacity: 0, x: -10 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  className="mt-4 p-6 bg-siemens-dark text-white rounded-sm border-l-4 border-siemens-petrol shadow-lg relative overflow-hidden group"
-                >
+                 className="mt-4 p-6 rounded-sm border-l-4 border-siemens-petrol shadow-lg relative overflow-hidden group transition-colors duration-300"
+style={{
+  backgroundColor: "var(--card-bg)",
+  color: "var(--text-secondary)",
+}}
                   <div className="absolute -top-2 -right-2 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                     <Award className="w-16 h-16" />
                   </div>
@@ -102,7 +105,10 @@ export const HomeView = () => {
                       <CheckCircle2 className="w-4 h-4 text-siemens-petrol" />
                       <span className="text-[10px] font-bold uppercase tracking-widest text-siemens-petrol">Key Achievement</span>
                     </div>
-                    <p className="text-sm italic text-siemens-stone/90 leading-relaxed">
+                    <p
+  className="text-sm italic leading-relaxed"
+  style={{ color: "var(--text-secondary)" }}
+>
                       "Recognized for improving Requirements traceability by 40% through the development of automated dashboards."
                     </p>
                   </div>
