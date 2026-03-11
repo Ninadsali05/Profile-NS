@@ -155,18 +155,23 @@ style={{
                   initial={{ opacity: 0, x: -10 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  className="mt-4 p-6 bg-siemens-dark text-white rounded-sm border-l-4 border-siemens-petrol shadow-lg relative overflow-hidden group"
-                >
+                  className="mt-4 p-6 bg-siemens-dark rounded-sm border-l-4 border-siemens-petrol shadow-lg relative overflow-hidden group"
+style={{ color: "var(--text-primary)" }}>
                   <div className="absolute -top-2 -right-2 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                     <Award className="w-16 h-16" />
                   </div>
                   <div className="relative z-10 pr-12">
                     <div className="flex items-center gap-3 mb-2">
                       <CheckCircle2 className="w-4 h-4 text-siemens-petrol" />
-                      <span className="text-[10px] font-bold uppercase tracking-widest text-siemens-petrol">Internship Highlight</span>
+                      <span
+  className="text-[10px] font-bold uppercase tracking-widest"
+  style={{ color: "var(--accent)" }}
+>
                     </div>
                     <p
-  className="text-sm leading-relaxed"
+  className="text-sm italic leading-relaxed"
+  style={{ color: "var(--text-secondary)" }}
+>
   style={{ color: "var(--text-secondary)" }}
 >
                       "Preparation of automated checklist for material selection depending upon their properties and product requirement."
