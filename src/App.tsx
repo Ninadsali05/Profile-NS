@@ -26,7 +26,13 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-siemens-light text-siemens-dark selection:bg-siemens-petrol/20 selection:text-siemens-dark">
+    <div
+  className="min-h-screen selection:bg-siemens-petrol/20"
+  style={{
+    backgroundColor: "var(--app-bg)",
+    color: "var(--app-text)",
+  }}
+>
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
       <main>
         {renderView()}
