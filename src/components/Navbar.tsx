@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import ThemeToggle from "./ThemeToggle";
 
 import { Tab } from '../types';
 
@@ -55,6 +56,7 @@ export const Navbar = ({ activeTab, setActiveTab }: NavbarProps) => {
           >
             Contact Me
           </button>
+           <ThemeToggle />
         </div>
       </div>
     </motion.nav>
