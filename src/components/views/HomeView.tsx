@@ -9,11 +9,11 @@ export const HomeView = () => {
     <div className="pb-20">
       <Hero />
 
-      {/* Top Skills Bar */}
+      {/* Top Skills */}
       <section className="px-6 mb-20">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-wrap justify-center items-center gap-8 py-8 border-y border-siemens-stone/50">
-            {topSkills.map((skill) => (
+          <div className="flex flex-wrap justify-center gap-8 py-8 border-y border-siemens-stone/50">
+            {topSkills.map(skill => (
               <div key={skill} className="flex items-center gap-3">
                 <div className="w-2 h-2 rounded-full bg-siemens-petrol" />
                 <span
@@ -39,48 +39,39 @@ export const HomeView = () => {
           </h2>
 
           <div className="max-w-3xl mx-auto">
-            <div className="relative border-l-2 border-siemens-petrol/20 ml-4 md:ml-0 space-y-16">
+            <div className="relative border-l-2 border-siemens-petrol/20 space-y-16">
 
-              {/* Present Experience */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="relative pl-12"
-              >
-                {/* Timeline Dot */}
+              {/* PRESENT EXPERIENCE */}
+              <motion.div className="relative pl-12">
                 <div
                   className="absolute -left-[9px] top-0 w-4 h-4 rounded-full border-4"
                   style={{
                     backgroundColor: 'var(--card-bg)',
                     borderColor: 'var(--card-border)',
                   }}
-                >
-                  <div className="w-1.5 h-1.5 rounded-full bg-siemens-petrol animate-pulse" />
-                </div>
+                />
 
-                {/* Experience Card */}
                 <div
-                  className="p-8 rounded-sm transition-colors duration-300"
+                  className="p-8 rounded-sm"
                   style={{
                     backgroundColor: 'var(--card-bg)',
                     border: '1px solid var(--card-border)',
                     boxShadow: 'var(--card-shadow)',
                   }}
                 >
-                  <div className="flex items-center gap-2 text-xs font-bold text-siemens-petrol uppercase tracking-widest mb-2">
+                  <div className="flex items-center gap-2 text-xs font-bold text-siemens-petrol uppercase mb-2">
                     <Calendar className="w-3 h-3" />
                     {experiences[0].period}
                   </div>
 
                   <h3
-                    className="text-2xl font-bold mb-1"
+                    className="text-2xl font-bold"
                     style={{ color: 'var(--text-primary)' }}
                   >
                     {experiences[0].company}
                   </h3>
 
-                  <p className="text-siemens-petrol font-bold text-sm uppercase tracking-wider mb-4">
+                  <p className="text-siemens-petrol font-bold text-sm uppercase mb-4">
                     {experiences[0].role}
                   </p>
 
@@ -100,19 +91,14 @@ export const HomeView = () => {
                   </p>
                 </div>
 
-                {/* Key Achievement (FIXED) */}
+                {/* KEY ACHIEVEMENT — FIXED */}
                 <motion.div
-                  initial={{ opacity: 0, x: -10 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  className="mt-4 p-6 bg-siemens-dark rounded-sm border-l-4 border-siemens-petrol shadow-lg relative overflow-hidden transition-colors duration-300"
-                  style={{ color: 'var(--text-secondary)' }}
+                  className="mt-4 p-6 rounded-sm border-l-4 border-siemens-petrol bg-siemens-dark shadow-lg relative overflow-hidden"
+                  style={{ color: 'var(--text-on-dark, #f5f5f5)' }}
                 >
-                  <div className="absolute -top-2 -right-2 p-4 opacity-10">
-                    <Award className="w-16 h-16" />
-                  </div>
+                  <Award className="absolute -top-2 -right-2 w-16 h-16 opacity-10" />
 
-                  <div className="relative z-10 pr-12">
+                  <div className="relative">
                     <div className="flex items-center gap-3 mb-2">
                       <CheckCircle2 className="w-4 h-4 text-siemens-petrol" />
                       <span className="text-[10px] font-bold uppercase tracking-widest text-siemens-petrol">
@@ -120,43 +106,32 @@ export const HomeView = () => {
                       </span>
                     </div>
 
-                    <p
-                      className="text-sm italic leading-relaxed"
-                      style={{ color: 'var(--text-secondary)' }}
-                    >
+                    <p className="text-sm italic leading-relaxed">
                       "Recognized for improving Requirements traceability by 40% through the development of automated dashboards."
                     </p>
                   </div>
                 </motion.div>
               </motion.div>
 
-              {/* Internship */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="relative pl-12"
-              >
-                {/* Timeline Dot */}
+              {/* INTERNSHIP */}
+              <motion.div className="relative pl-12">
                 <div
-                  className="absolute -left-[9px] top-0 w-4 h-4 rounded-full border-4 flex items-center justify-center"
+                  className="absolute -left-[9px] top-0 w-4 h-4 rounded-full border-4"
                   style={{
                     backgroundColor: 'var(--card-bg)',
                     borderColor: 'var(--card-border)',
                   }}
-                >
-                  <div className="w-1.5 h-1.5 rounded-full bg-siemens-petrol" />
-                </div>
+                />
 
                 <div
-                  className="p-8 rounded-sm transition-colors duration-300"
+                  className="p-8 rounded-sm"
                   style={{
                     backgroundColor: 'var(--card-bg)',
                     border: '1px solid var(--card-border)',
                     boxShadow: 'var(--card-shadow)',
                   }}
                 >
-                  <p className="text-siemens-petrol font-bold text-sm uppercase tracking-wider mb-4">
+                  <p className="text-siemens-petrol font-bold text-sm uppercase mb-4">
                     {experiences[1].role}
                   </p>
 
@@ -168,19 +143,14 @@ export const HomeView = () => {
                   </p>
                 </div>
 
-                {/* Internship Highlight */}
+                {/* INTERNSHIP HIGHLIGHT — FIXED */}
                 <motion.div
-                  initial={{ opacity: 0, x: -10 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  className="mt-4 p-6 bg-siemens-dark rounded-sm border-l-4 border-siemens-petrol shadow-lg relative overflow-hidden"
-                  style={{ color: 'var(--text-secondary)' }}
+                  className="mt-4 p-6 rounded-sm border-l-4 border-siemens-petrol bg-siemens-dark shadow-lg relative overflow-hidden"
+                  style={{ color: 'var(--text-on-dark, #f5f5f5)' }}
                 >
-                  <div className="absolute -top-2 -right-2 p-4 opacity-10">
-                    <Award className="w-16 h-16" />
-                  </div>
+                  <Award className="absolute -top-2 -right-2 w-16 h-16 opacity-10" />
 
-                  <div className="relative z-10 pr-12">
+                  <div className="relative">
                     <div className="flex items-center gap-3 mb-2">
                       <CheckCircle2 className="w-4 h-4 text-siemens-petrol" />
                       <span className="text-[10px] font-bold uppercase tracking-widest text-siemens-petrol">
@@ -188,10 +158,7 @@ export const HomeView = () => {
                       </span>
                     </div>
 
-                    <p
-                      className="text-sm italic leading-relaxed"
-                      style={{ color: 'var(--text-secondary)' }}
-                    >
+                    <p className="text-sm italic leading-relaxed">
                       "Preparation of automated checklist for material selection depending upon their properties and product requirement."
                     </p>
                   </div>
