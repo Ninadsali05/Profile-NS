@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import ThemeToggle from "./ThemeToggle";
 
@@ -10,6 +10,7 @@ interface NavbarProps {
 }
 
 export const Navbar = ({ activeTab, setActiveTab }: NavbarProps) => {
+  const [mobileOpen, setMobileOpen] = useState(false);
   return (
     <motion.nav 
       initial={{ y: -100 }}
@@ -33,9 +34,70 @@ style={{
               referrerPolicy="no-referrer"
             />
           </div>
+          {/* Mobile menu */}
+{mobileOpen && (
+  <div
+    className="md:hidden border-t border-siemens-petrol/20"
+    style={{
+      backgroundColor: "var(--navbar-bg)",
+      color: "var(--navbar-text)",
+    }}
+  >
+    <div className="flex flex-col px-6 py-4 gap-4 text-sm font-bold uppercase tracking-widest">
+      <button
+        onClick={() => {
+          setActiveTab("home");
+          setMobileOpen(false);
+        }}
+      >
+        Home
+      </button>
+
+      <button
+        onClick={() => {
+          setActiveTab("about");
+          setMobileOpen(false);
+        }}
+      >
+        About Me
+      </button>
+
+      <button
+        onClick={() => {
+          setActiveTab("projects");
+          setMobileOpen(false);
+        }}
+      >
+        Projects
+      </button>
+
+      <button
+        onClick={() => {
+          setActiveTab("contact");
+          setMobileOpen(false);
+        }}
+        className="mt-2 px-4 py-2 rounded-sm bg-siemens-petrol text-white"
+      >
+        Contact Me
+      </button>
+    </div>
+  </div>
+)}
           {"<Hey>"}<span className="text-siemens-petrol">.{"</There>"}</span>
         </button>
         <div className="hidden md:flex items-center gap-8 text-sm font-bold uppercase tracking-widest">
+          {/* Mobile controls */}
+<div className="md:hidden flex items-center gap-4">
+  <ThemeToggle />
+
+  <button
+    onClick={() => setMobileOpen(!mobileOpen)}
+    className="text-2xl font-bold"
+    aria-label="Toggle navigation menu"
+  >
+    ☰
+  </button>
+</div>
           <button 
             onClick={() => setActiveTab('home')}
             className={`transition-colors ${activeTab === 'home' ? 'text-siemens-petrol' : 'text-siemens-stone/60 hover:opacity-80'}`}
