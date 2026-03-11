@@ -12,7 +12,13 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-[1.1] bg-gradient-to-b from-siemens-dark to-siemens-petrol bg-clip-text text-transparent pb-2">
+            <h1
+  className="text-6xl md:text-8xl font-bold tracking-tighter leading-[1.1] bg-clip-text text-transparent pb-2"
+  style={{
+    backgroundImage:
+      "linear-gradient(to bottom, var(--app-text), #00a8b0)",
+  }}
+>
               Hi, I'm <br />
               <span className="italic">Ninad Sali.</span>
             </h1>
@@ -25,7 +31,7 @@ export const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="max-w-2xl text-lg text-siemens-dark/70 leading-relaxed mx-auto"
+            className="max-w-2xl text-lg leading-relaxed mx-auto opacity-80"
           >
             Transitioning from Mechatronics Engineering to PLM Development. 
             Specializing in Teamcenter customization, workflow automation, and 
@@ -41,16 +47,16 @@ export const Hero = () => {
             <a 
               href="/resume.pdf" 
               download="ResumeSection.pdf"
-              className="group flex items-center gap-2 px-8 py-4 bg-siemens-dark text-white rounded-sm hover:bg-siemens-petrol transition-all font-bold uppercase tracking-wider text-sm"
+              className="group flex items-center gap-2 px-8 py-4 bg-siemens-petrol text-white rounded-sm hover:opacity-90 transition-all font-bold uppercase tracking-wider text-sm"
             >
               Download Resume
               <Download className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
             </a>
             <div className="flex items-center gap-6">
-              <a href="https://linkedin.com" className="p-2 text-siemens-dark/40 hover:text-siemens-petrol transition-colors">
+              <a href="https://linkedin.com" className="p-2 opacity-50 hover:opacity-100 hover:text-siemens-petrol transition-all"
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="mailto:ninad2388@gmail.com" className="p-2 text-siemens-dark/40 hover:text-siemens-petrol transition-colors">
+              <a href="mailto:ninad2388@gmail.com" className="p-2 opacity-50 hover:opacity-100 hover:text-siemens-petrol transition-all"
                 <Mail className="w-6 h-6" />
               </a>
             </div>
