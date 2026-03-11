@@ -16,6 +16,18 @@ body {
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+/* Navbar theme variables */
+:root {
+  --navbar-bg: #0f172a;       /* siemens-dark */
+  --navbar-text: #ffffff;
+}
+
+[data-theme="dark"] {
+  --navbar-bg: #020617;       /* darker navy */
+  --navbar-text: #e5e7eb;
+}
+
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
