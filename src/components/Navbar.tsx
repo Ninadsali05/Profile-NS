@@ -38,19 +38,19 @@ style={{
         <div className="hidden md:flex items-center gap-8 text-sm font-bold uppercase tracking-widest">
           <button 
             onClick={() => setActiveTab('home')}
-            className={`transition-colors ${activeTab === 'home' ? 'text-siemens-petrol' : 'text-siemens-stone/60 hover:text-white'}`}
+            className={`transition-colors ${activeTab === 'home' ? 'text-siemens-petrol' : 'text-siemens-stone/60 hover:opacity-80'}`}
           >
             Home
           </button>
           <button 
             onClick={() => setActiveTab('about')}
-            className={`transition-colors ${activeTab === 'about' ? 'text-siemens-petrol' : 'text-siemens-stone/60 hover:text-white'}`}
+            className={`transition-colors ${activeTab === 'about' ? 'text-siemens-petrol' : 'text-siemens-stone/60 hover:opacity-80'}`}
           >
             About Me
           </button>
           <button 
             onClick={() => setActiveTab('projects')}
-            className={`transition-colors ${activeTab === 'projects' ? 'text-siemens-petrol' : 'text-siemens-stone/60 hover:text-white'}`}
+            className={`transition-colors ${activeTab === 'projects' ? 'text-siemens-petrol' : 'text-siemens-stone/60 hover:opacity-80'}`}
           >
             Projects
           </button>
