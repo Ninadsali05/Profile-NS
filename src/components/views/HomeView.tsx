@@ -96,7 +96,7 @@ export const HomeView = () => {
 style={{
   backgroundColor: "var(--card-bg)",
   color: "var(--text-secondary)",
-}}
+}}>
                   <div className="absolute -top-2 -right-2 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                     <Award className="w-16 h-16" />
                   </div>
