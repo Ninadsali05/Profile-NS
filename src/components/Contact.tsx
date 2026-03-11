@@ -173,16 +173,18 @@ export const Contact = () => {
                 />
               </div>
 
-              <button
-                className="w-full py-4 rounded-sm font-bold uppercase tracking-widest text-sm flex items-center justify-center gap-2 transition-all"
-                style={{
-                  backgroundColor: 'var(--accent)',
-                  color: '#ffffff',
-                }}
-              >
-                Send Message
-                <Send className="w-4 h-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
-              </button>
+             <button
+  className="w-full py-4 rounded-sm font-bold uppercase tracking-widest text-sm 
+             flex items-center justify-center gap-2 transition-all duration-300
+             hover:opacity-90"
+  style={{
+    backgroundColor: 'var(--accent-strong, #009999)',
+    color: '#ffffff',
+  }}
+>
+  Send Message
+  <Send className="w-4 h-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
+</button>
 
             </form>
           </motion.div>
