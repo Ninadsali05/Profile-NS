@@ -55,11 +55,15 @@ style={{
             Projects
           </button>
           <button 
-            onClick={() => setActiveTab('contact')}
-            className={`px-4 py-2 rounded-sm transition-all ${activeTab === 'contact' ? 'bg-white text-siemens-dark' : 'bg-siemens-petrol text-white hover:bg-white hover:text-siemens-dark'}`}
-          >
-            Contact Me
-          </button>
+  onClick={() => setActiveTab('contact')}
+  className={`px-4 py-2 rounded-sm transition-all ${
+    activeTab === 'contact'
+      ? 'bg-siemens-petrol text-white'
+      : 'bg-siemens-petrol/90 text-white hover:opacity-90'
+  }`}
+>
+  Contact Me
+</button>
            <ThemeToggle />
         </div>
       </div>
