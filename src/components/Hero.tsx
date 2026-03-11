@@ -40,7 +40,7 @@ export const Hero = () => {
           >
             <a 
               href="/resume.pdf" 
-              download="Ninad_Sali_Resume.pdf"
+              download="ResumeSection.pdf"
               className="group flex items-center gap-2 px-8 py-4 bg-siemens-dark text-white rounded-sm hover:bg-siemens-petrol transition-all font-bold uppercase tracking-wider text-sm"
             >
               Download Resume
