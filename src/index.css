@@ -27,6 +27,16 @@ body {
   --navbar-bg: #020617;       /* darker navy */
   --navbar-text: #e5e7eb;
 }
+/* App content theme variables */
+:root {
+  --app-bg: #f8fafc;      /* light background */
+  --app-text: #0f172a;    /* dark text */
+}
+
+[data-theme="dark"] {
+  --app-bg: #020617;      /* dark background */
+  --app-text: #e5e7eb;    /* light text */
+}
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
