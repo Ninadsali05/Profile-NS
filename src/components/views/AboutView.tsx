@@ -155,13 +155,15 @@ export const AboutView = () => {
             <div className="grid gap-3 relative z-10">
               {certifications.map((cert, idx) => (
                 <div
-                  key={idx}
-                  className="flex items-center gap-4 p-4 rounded-sm transition-all"
-                  style={{
-                    backgroundColor: 'var(--card-bg)',
-                    border: '1px solid var(--card-border)',
-                  }}
-                >
+  key={idx}
+  className="flex items-center gap-4 p-4 rounded-sm transition-all duration-300 ease-in-out"
+  style={{
+    backgroundColor: 'var(--card-bg)',
+    border: '1px solid var(--card-border)',
+    boxShadow: 'var(--card-shadow)',
+    transitionProperty: 'background-color, border-color, box-shadow, color',
+  }}
+>
                   <div className="w-8 h-8 rounded-full bg-siemens-petrol text-white flex items-center justify-center">
                     <CheckCircle2 className="w-4 h-4" />
                   </div>
