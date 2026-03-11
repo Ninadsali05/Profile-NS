@@ -14,7 +14,11 @@ export const Navbar = ({ activeTab, setActiveTab }: NavbarProps) => {
     <motion.nav 
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed top-0 left-0 right-0 z-50 bg-siemens-dark text-white border-b border-siemens-petrol/20"
+      className="fixed top-0 left-0 right-0 z-50 border-b border-siemens-petrol/20"
+style={{
+  backgroundColor: "var(--navbar-bg)",
+  color: "var(--navbar-text)",
+}}
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <button 
