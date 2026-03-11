@@ -45,7 +45,7 @@ export const Hero = () => {
             className="flex flex-col items-center gap-6"
           >
             <a 
-              href="/resume.pdf" 
+              href="/Profile-NS/ResumeSection.pdf" 
               download="ResumeSection.pdf"
               className="group flex items-center gap-2 px-8 py-4 bg-siemens-petrol text-white rounded-sm hover:opacity-90 transition-all font-bold uppercase tracking-wider text-sm"
             >
