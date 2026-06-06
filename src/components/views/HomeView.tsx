@@ -148,7 +148,11 @@ export const HomeView = () => {
                     className="text-sm leading-relaxed"
                     style={{ color: 'var(--text-secondary)' }}
                   >
-                    {experiences[1].points.join(' ')}
+                   {experiences[1].points.map((point, index) => (
+  <span key={index} className="block mb-1">
+    {point}
+  </span>
+))}
                   </p>
                 </div>
 
