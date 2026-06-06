@@ -99,15 +99,20 @@ export const HomeView = () => {
                   <Award className="absolute -top-2 -right-2 w-16 h-16 opacity-10" />
 
                   <div className="relative">
-                    <div className="flex items-center gap-3 mb-2">
+                                       <div className="flex items-center gap-3 mb-2">
                       <CheckCircle2 className="w-4 h-4 text-siemens-petrol" />
-                      <span className="text-[10px] font-bold uppercase tracking-widest text-siemens-petrol">
+                      <span
+                        className="text-[10px] font-bold uppercase tracking-widest"
+                        style={{ color: "var(--accent)" }}
+                      >
                         Key Achievement
                       </span>
                     </div>
-
-                    <p className="text-sm italic leading-relaxed">
-                      "Appreciation for succesfull upgrades from TC2412 to TC2506."
+                    <p
+                      className="text-sm italic leading-relaxed"
+                      style={{ color: "var(--text-secondary)" }}
+                    >
+                      "Preparation of automated checklist for material selection depending upon their properties and product requirement."
                     </p>
                   </div>
                 </motion.div>
