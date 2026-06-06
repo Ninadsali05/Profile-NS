@@ -17,17 +17,47 @@ export const projects = {
       image: "/Profile-NS/CAD.jpg"
     }
   ],
-  plm: [
+plm: [
     {
-      title: "BMIDE Customization",
-      description: "Customized Teamcenter data model by implementing Item Types, properties, LOVs, and naming rules.",
+      title: "Upgrades",
+      description: "TC2406 → TC2412\nTC2412 → TC2506",
+      tags: ["Teamcenter", "Upgrade", "PLM"],
+      image: "/Profile-NS/BMIDE.png"
+    },
+    {
+      title: "CAD Integration",
+      description: "Involved in CREO integration with TC PLM using integrators at GTAC Siemens support.",
+      tags: ["CREO", "Teamcenter", "Integration"],
+      image: "/Profile-NS/CAD.jpg"
+    },
+    {
+      title: "BMIDE",
+      description: "Created IPN for plant specific valves team.\nDefined a revision rule to be selected from LOV.",
       tags: ["BMIDE", "Data Modeling", "Teamcenter"],
       image: "/Profile-NS/BMIDE.png"
     },
     {
-      title: "Custom ITK utilities",
-      description: "Developed custom ITK utilities for server-side automation and data management in Teamcenter.",
-      tags: ["ITK", "C/C++", "PLM"],
+      title: "Workflow Designer",
+      description: "Developed an ECN workflow depending upon the PDC4 release gates.\nConsumed the OOTB handlers at respective tasks as per standard industry practices.",
+      tags: ["Workflow", "ECN", "Teamcenter"],
+      image: "/Profile-NS/ITK.png"
+    },
+    {
+      title: "ITK Customisation",
+      description: "Automated pending tasks using a utility.\nGenerated a report of items having project name in their title which included their parent assemblies, if not used in any assemblies, then deleted the items and listed out the deleted items.",
+      tags: ["ITK", "C/C++", "Automation"],
+      image: "/Profile-NS/ITK.png"
+    },
+    {
+      title: "AWC Configuration",
+      description: "Designed a new tile on the homepage which shows all users in the organisation.\nCreated new workspace for internal quality team for audits.",
+      tags: ["AWC", "Configuration", "Teamcenter"],
+      image: "/Profile-NS/BMIDE.png"
+    },
+    {
+      title: "AWC Customisation",
+      description: "Added Change Management related commands on the explorer page.\nCreated a command and designed the panel.\nAdded the action which calls TcSoaService.",
+      tags: ["AWC", "SOA", "Customisation"],
       image: "/Profile-NS/ITK.png"
     }
   ],
