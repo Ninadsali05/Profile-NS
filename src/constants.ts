@@ -22,13 +22,13 @@ plm: [
       title: "Upgrades",
       description: "•	TC2406 → TC2412\n•	TC2412 → TC2506",
       tags: ["Teamcenter", "Upgrade", "PLM"],
-      image: "/Profile-NS/BMIDE.png"
+      image: "/Profile-NS/Upgrade.png"
     },
     {
       title: "CAD Integration",
       description: "•	Involved in CREO integration with TC PLM using integrators at GTAC Siemens support.",
       tags: ["CREO", "Teamcenter", "Integration"],
-      image: "/Profile-NS/CAD.jpg"
+      image: "/Profile-NS/Integration.png"
     },
     {
       title: "BMIDE",
@@ -40,7 +40,7 @@ plm: [
       title: "Workflow Designer",
       description: "•	Developed an ECN workflow depending upon the PDC4 release gates.\n•	Consumed the OOTB handlers at respective tasks as per standard industry practices.",
       tags: ["Workflow", "ECN", "Teamcenter"],
-      image: "/Profile-NS/ITK.png"
+      image: "/Profile-NS/Wrokflow.png"
     },
     {
       title: "ITK Customisation",
@@ -52,13 +52,13 @@ plm: [
       title: "AWC Configuration",
       description: "•	Designed a new tile on the homepage which shows all users in the organisation.\n•	Created new workspace for internal quality team for audits.",
       tags: ["AWC", "Configuration", "Teamcenter"],
-      image: "/Profile-NS/BMIDE.png"
+      image: "/Profile-NS/Tiles.png"
     },
     {
       title: "AWC Customisation",
       description: "•	Added Change Management related commands on the explorer page.\n- Created a command and designed the panel.\n- Added the action which calls TcSoaService.",
       tags: ["AWC", "SOA", "Customisation"],
-      image: "/Profile-NS/ITK.png"
+      image: "/Profile-NS/Panel.png"
     }
   ],
   automation: [
