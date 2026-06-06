@@ -24,7 +24,7 @@ export const ProjectsView = () => {
             className="max-w-2xl mx-auto"
             style={{ color: 'var(--text-secondary)' }}
           >
-            Categorized technical implementations across Mechatronics, PLM, and Automation sectors.
+            Categorized technical implementations across PLM, Mechatronics and Automation sectors.
           </p>
         </motion.div>
 
