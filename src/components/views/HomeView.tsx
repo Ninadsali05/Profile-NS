@@ -159,7 +159,7 @@ export const HomeView = () => {
                     </div>
 
                     <p className="text-sm italic leading-relaxed">
-                      "Preparation of automated checklist for material selection depending upon their properties and product requirement."
+                      "Recognized for improving Requirements traceability by 40% through the development of automated dashboards."
                     </p>
                   </div>
                 </motion.div>
