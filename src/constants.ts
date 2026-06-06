@@ -54,10 +54,10 @@ export const experiences: ExperienceItem[] = [
     period: "01/23 - Present",
     location: "Pune, India",
     points: [
-      "Developed and maintained ITK-based custom utilities for Teamcenter automation.",
-      "Implemented AWC customizations to enhance user experience and meet business requirements.",
-      "Worked on BMIDE configuration for custom objects, properties, and relations.",
-      "Supported PLM enhancements, bug fixes, and deployments in production environments."
+      "- Developed and maintained ITK-based custom utilities for Teamcenter automation.",
+      "- Implemented AWC customizations to enhance user experience and meet business requirements.",
+      "- Worked on BMIDE configuration for custom objects, properties, and relations.",
+      "- Supported PLM enhancements, bug fixes, and deployments in production environments."
     ]
   },
   {
@@ -66,10 +66,10 @@ export const experiences: ExperienceItem[] = [
     period: "10 Jan 2023 - 10 July 2023",
     location: "Pune, India",
     points: [
-      "Assisted in DFMEA (Design Failure Mode and Effects Analysis) for brake system components.",
-      "Provided CAD support using CREO for design modifications and 3D modelling tasks.",
-      "Supported requirements management activities — capturing, tracking, and validating engineering requirements.",
-      "Collaborated with cross-functional teams to ensure design compliance working in a scrum."
+      "- Assisted in DFMEA (Design Failure Mode and Effects Analysis) for brake system components.",
+      "- Provided CAD support using CREO for design modifications and 3D modelling tasks.",
+      "- Supported requirements management activities — capturing, tracking, and validating engineering requirements.",
+      "- Collaborated with cross-functional teams to ensure design compliance working in a scrum."
     ]
   }
 ];
