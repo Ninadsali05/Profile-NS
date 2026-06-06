@@ -56,7 +56,7 @@ export const Hero = () => {
               <a href="https://linkedin.com" className="p-2 opacity-50 hover:opacity-100 hover:text-siemens-petrol transition-all">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="mailto:ninad2388@gmail.com" className="p-2 opacity-50 hover:opacity-100 hover:text-siemens-petrol transition-all">
+              <a href="mailto:ninad0625@gmail.com" className="p-2 opacity-50 hover:opacity-100 hover:text-siemens-petrol transition-all">
                 <Mail className="w-6 h-6" />
               </a>
             </div>
