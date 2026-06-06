@@ -50,32 +50,32 @@ export const projects = {
 export const experiences: ExperienceItem[] = [
   {
     company: "Knorr-Bremse Technology Centre India",
-    role: "Mechatronics Engineer",
+    role: "PLM Developer",
     period: "01/23 - Present",
     location: "Pune, India",
     points: [
-      "Developed and maintained DFMEA as per European standards.",
-      "Managed engineering documentation, BOM structures, and validation records supporting product configuration.",
-      "Facilitated engineering change management (ECR/ECO) ensuring traceability of product revisions.",
-      "Supported CREO–Teamcenter integration, maintaining correct dataset linkage and CAD data synchronization."
+      "Developed and maintained ITK-based custom utilities for Teamcenter automation.",
+      "Implemented AWC customizations to enhance user experience and meet business requirements.",
+      "Worked on BMIDE configuration for custom objects, properties, and relations.",
+      "Supported PLM enhancements, bug fixes, and deployments in production environments."
     ]
   },
   {
     company: "Knorr-Bremse Technology Centre India",
-    role: "Engineering Intern",
+    role: "Engineering Intern (R&D)",
     period: "10 Jan 2023 - 10 July 2023",
     location: "Pune, India",
     points: [
-      "Design of ADAS camera/radar brackets.",
-      "Preparation of automated checklist for material selection depending upon their properties and product requirement."
+      "Assisted in DFMEA (Design Failure Mode and Effects Analysis) for brake system components.",
+      "Provided CAD support using CREO for design modifications and 3D modelling tasks.",
+      "Supported requirements management activities — capturing, tracking, and validating engineering requirements.",
+      "Collaborated with cross-functional teams to ensure design compliance working in a scrum."
     ]
   }
 ];
 
 export const achievements = [
-  "Recognized for improving RQM traceability by 40% through the development of automated dashboards.",
-  "Successfully implemented custom ITK utilities reducing manual batch processing time by 60%.",
-  "Certified Siemens Teamcenter Professional with expertise in end-to-end PLM lifecycle."
+  "Appreciation for succesfull upgrades from TC2412 to TC2506"
 ];
 
 export const education = [
