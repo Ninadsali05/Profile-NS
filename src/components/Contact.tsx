@@ -42,7 +42,7 @@ export const Contact = () => {
 
               {/* EMAIL CARD */}
               <a
-                href="mailto:ninad2388@gmail.com"
+                href="mailto:ninad0625@gmail.com"
                 className="flex items-center gap-6 p-6 rounded-sm transition-all duration-300 group"
                 style={{
                   backgroundColor: 'var(--card-bg)',
@@ -65,7 +65,7 @@ export const Contact = () => {
                     className="text-lg font-semibold"
                     style={{ color: 'var(--text-primary)' }}
                   >
-                    ninad2388@gmail.com
+                    ninad0625@gmail.com
                   </div>
                 </div>
               </a>
