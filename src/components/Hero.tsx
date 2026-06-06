@@ -23,7 +23,7 @@ export const Hero = () => {
               <span className="italic">Ninad Sali.</span>
             </h1>
             <span className="inline-block px-3 py-1 rounded-sm bg-siemens-petrol/10 text-siemens-petrol text-xs font-bold tracking-widest uppercase mt-4 border-l-2 border-siemens-petrol">
-              PLM Teamcentre Professional
+              PLM Teamcentre Developer
             </span>
           </motion.div>
 
@@ -33,9 +33,9 @@ export const Hero = () => {
             transition={{ delay: 0.2 }}
             className="max-w-2xl text-lg leading-relaxed mx-auto opacity-80"
           >
-            Transitioning from Mechatronics Engineering to PLM Development. 
-            Specializing in Teamcenter customization, workflow automation, and 
-            engineering data management.
+            3+ years customizing Siemens Teamcenter at a Tier-1 automotive OEM. 
+            Specializing in BMIDE configuration, ITK development, and Active Workspace 
+            — bridging engineering domain knowledge with PLM development
           </motion.p>
 
           <motion.div 
