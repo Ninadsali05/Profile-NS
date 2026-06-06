@@ -105,19 +105,13 @@ export const HomeView = () => {
                   <div className="relative">
                                        <div className="flex items-center gap-3 mb-2">
                       <CheckCircle2 className="w-4 h-4 text-siemens-petrol" />
-                      <span
-                        className="text-[10px] font-bold uppercase tracking-widest"
-                        style={{ color: "var(--accent)" }}
-                      >
-                        Key Achievement
-                      </span>
+                     <span className="text-[10px] font-bold uppercase tracking-widest text-siemens-petrol">
+  Key Achievement
+</span>
                     </div>
-                    <p
-                      className="text-sm italic leading-relaxed"
-                      style={{ color: "var(--text-secondary)" }}
-                    >
-                      "Appreciated for upgrades performed from TC2412 to TC2506."
-                    </p>
+                    <p className="text-sm italic leading-relaxed">
+  "Appreciated for upgrades performed from TC2412 to TC2506."
+</p>
                   </div>
                 </motion.div>
               </motion.div>
