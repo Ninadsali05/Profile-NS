@@ -112,7 +112,7 @@ export const HomeView = () => {
                       className="text-sm italic leading-relaxed"
                       style={{ color: "var(--text-secondary)" }}
                     >
-                      "Preparation of automated checklist for material selection depending upon their properties and product requirement."
+                      "Appreciated for upgrades performed from TC2412 to TC2506."
                     </p>
                   </div>
                 </motion.div>
