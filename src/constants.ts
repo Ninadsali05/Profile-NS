@@ -104,7 +104,8 @@ export const certifications = [
 export const skillGroups: SkillGroup[] = [
   {
     category: "PLM Core",
-    skills: ["BMIDE", "Workflow Designer", "C/C++", "ITK", "SOA/REST Services", "AWC"]
+    skills: ["BMIDE", "Workflow Designer", "Structure Manager", "Organization", "Access Manager", "Query Builder",
+             "PLM XML", "Reports Builder", "Preferences", "C/C++", "ITK", "SOA/REST Services", "AWC"]
   },
   {
     category: "Engineering & CAD",
