@@ -30,18 +30,18 @@ export const ProjectsView = () => {
 
         <div className="space-y-16">
 
-          {/* Mechatronics */}
-          <Section
-            title="Mechatronics Projects"
-            icon={<Cpu className="w-6 h-6" />}
-            projects={projects.mechatronics}
-          />
-
           {/* PLM */}
           <Section
             title="PLM Projects"
             icon={<Database className="w-6 h-6" />}
             projects={projects.plm}
+          />
+
+          {/* Mechatronics */}
+          <Section
+            title="Mechatronics Projects"
+            icon={<Cpu className="w-6 h-6" />}
+            projects={projects.mechatronics}
           />
 
           {/* Automation */}
