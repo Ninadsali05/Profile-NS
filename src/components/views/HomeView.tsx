@@ -107,7 +107,7 @@ export const HomeView = () => {
                     </div>
 
                     <p className="text-sm italic leading-relaxed">
-                      "Recognized for improving Requirements traceability by 40% through the development of automated dashboards."
+                      "Appreciation for succesfull upgrades from TC2412 to TC2506."
                     </p>
                   </div>
                 </motion.div>
