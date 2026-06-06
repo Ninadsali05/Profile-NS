@@ -82,7 +82,7 @@ function Section({
         </h3>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-3 gap-4">
         {projects.map((project, idx) => (
           <ProjectCard key={project.title} project={project} index={idx} />
         ))}
@@ -114,7 +114,7 @@ function ProjectCard({
       }}
     >
       {/* Image */}
-      <div className="h-48 overflow-hidden relative">
+      <div className="h-32 overflow-hidden relative">
         <img
           src={project.image}
           alt={project.title}
@@ -124,19 +124,21 @@ function ProjectCard({
       </div>
 
       {/* Content */}
-      <div className="p-6">
+      <div className="p-4">
         <h4
-          className="text-xl font-bold mb-2 transition-colors"
+          className="text-base font-bold mb-1 transition-colors"
           style={{ color: 'var(--text-primary)' }}
         >
           {project.title}
         </h4>
 
         <p
-          className="text-sm leading-relaxed mb-6"
+          className="text-xs leading-relaxed mb-3"
           style={{ color: 'var(--text-secondary)' }}
         >
-          {project.description}
+          {project.description.split('\n').map((line: string, i: number) => (
+  <span key={i} className="block">{line}</span>
+))}
         </p>
 
         <div className="flex flex-wrap gap-2">
