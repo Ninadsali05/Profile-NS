@@ -46,12 +46,10 @@ export const AboutView = () => {
             className="text-xl leading-relaxed italic"
             style={{ color: 'var(--text-secondary)' }}
           >
-            "Aspiring PLM professional with 3+ years in automotive product
-            development and engineering lifecycle management. Expertise in BMIDE
-            customization, ITK development, and workflow automation, along with
-            CAD-PLM integration. Experienced in EBOM/MBOM management and
-            engineering change processes, enhancing data traceability and
-            optimizing digital product lifecycle workflows."
+            "Teamcenter PLM Developer with 3 years of experience in customization and 
+            configuration of Siemens Teamcenter solutions. Strong expertise in BMIDE, 
+            ITK development, Active Workspace configuration and customization. Proven 
+            ability to automate workflows and build scalable PLM utilities to improve operational efficiency."
           </p>
         </motion.div>
 
